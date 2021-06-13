@@ -1,0 +1,160 @@
+body
+{
+    font-family: 'Segoe UI Light';
+    background-color: #0D0D0D;
+    overflow-x: hidden;
+}
+
+
+.movie
+{
+    overflow: hidden;
+    
+}
+.movie:hover .filmDescription
+{
+    top :0;
+
+}
+.filmDescription
+{
+    z-index: 999;
+    top:100%;
+    left:0;
+    height: 100%;
+    color :#000 !important;
+    background-color: rgba(183, 185, 192,0.85) !important;
+    font-weight: 700;
+    transition:all 0.7s;
+    
+}
+.filmDescription h2{
+    font-size: 30px;
+    
+    
+}
+.form-control
+{
+    border: none !important;
+    border-bottom: 1px solid white !important; 
+    border-radius: 0% !important;
+    background-color: transparent !important;
+    color : white !important
+}
+input::placeholder {  
+    text-align: center; 
+} 
+.sideBar
+{
+    width:3rem;
+    height: 100%;
+    background-color: #F8F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+
+
+}
+.logo
+{
+    width : 50%;
+    
+}
+
+i
+{
+    cursor: pointer;
+}
+#contactUs .btn
+{
+    transition: 0.5s;
+}
+#contactUs .btn:hover
+{
+    background-color: #DC3545 !important;
+    color:white !important;
+}
+
+#contactUs .Validation
+{
+    background-color: rgb(248, 215, 218);
+    display: none;
+}
+
+input:focus {
+    color : #455057 !important;
+}
+.toggleIcon .fa-times
+{
+    display: none;
+}
+
+.btnShadow
+{
+    box-shadow: 0px 0px 2px 2px #DC3545;
+}
+.navigation
+{
+    width:20rem;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background-color: #000000 !important;
+}
+.navigation ul li
+{
+    margin: 20px;
+}
+.navigation ul
+{
+    list-style-type:none
+}
+.navigation ul li a
+{
+    display: block;
+    text-decoration: none;
+    color : white;
+    transition: 0.4s;
+    position: absolute;
+}
+.navigation ul li a:hover
+{
+    color:#DC3545 !important;
+}
+
+.icons i:hover
+{
+    color :#DC3545 !important;
+    transition: 0.4s;
+}
+
+.Links ul
+{
+    width :50%;
+    z-index: 99999999;
+    height: 50%;
+    overflow: hidden;
+}
+.Links ul li{
+    margin-bottom: 0.9rem !important;
+}
+.Links ul li a{
+    font-size: 1.3rem !important;
+    
+}
+
+@media screen and(max-width : 767px)
+{
+    #contactUs{
+        width: 100% !important;
+        padding: 0 50px;
+    }
+    .navigation{
+        width: 13rem !important;
+    }
+   
+}
